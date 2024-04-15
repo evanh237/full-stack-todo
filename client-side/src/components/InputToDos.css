@@ -1,0 +1,32 @@
+.input-todo-container {
+  margin-bottom: 20px;
+}
+
+.input-todo-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-todo-form {
+  display: flex;
+  align-items: center;
+}
+
+.input-todo-form input[type="text"] {
+  height: 32px;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+
+.input-todo-form button {
+  height: 32px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.input-todo-form button:hover {
+  background-color: #218838;
+}
